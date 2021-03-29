@@ -30,7 +30,7 @@
   <string name="shortcut_erase_short_label">Vymazať</string>
   <string name="shortcut_erase_long_label">Vymazať históriu</string>
   <string name="shortcut_erase_and_open_short_label">Vymazať a otvoriť</string>
-  <string name="shortcut_erase_and_open_long_label">Vymazať a otvoriť %1$s</string>
+  <string name="shortcut_erase_and_open_long_label2">Vymazať a otvoriť %1$s</string>
   <string name="text_selection_search_action">Súkromné vyhľadávanie</string>
   <string name="about_content"><![CDATA[<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s v&#225;m d&#225;va kontrolu.</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"Pou&#382;&#237;vajte ho ako s&#250;kromn&#253; prehliada&#269;:\n  "<ul>"\n    "<li>Vyh&#318;ad&#225;vajte a prehliadajte priamo prostredn&#237;ctvom aplik&#225;cie</li>"\n    "<li>Blokujte sledovacie prvky (v nastaveniach m&#244;&#382;ete sledovacie prvky povoli&#357;)</li>"\n    "<li>Vyma&#382;te cookies, hist&#243;riu vyh&#318;ad&#225;vania a prehliadania</li>"\n  "</ul>\n</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s vyv&#237;ja Mozilla. Na&#353;a misia je podporova&#357; zdrav&#253; a otvoren&#253; internet.<br/>\n<a href="%2$s">&#270;al&#353;ie inform&#225;cie</a></p>]]></string>
   <string name="preference_privacy_and_security_header">Súkromie a bezpečnosť</string>

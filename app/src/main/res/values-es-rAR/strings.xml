@@ -30,7 +30,7 @@
   <string name="shortcut_erase_short_label">Borrar</string>
   <string name="shortcut_erase_long_label">Borrar historial de navegación</string>
   <string name="shortcut_erase_and_open_short_label">Eliminar y abrir</string>
-  <string name="shortcut_erase_and_open_long_label">Eliminar y abrir %1$s</string>
+  <string name="shortcut_erase_and_open_long_label2">Eliminar y abrir %1$s</string>
   <string name="text_selection_search_action">Buscar en privado</string>
   <string name="about_content"><![CDATA[<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s le da el control.</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"&#218;selo como un navegador privado:\n  "<ul>"\n    "<li>Buscar y navegar en la aplicaci&#243;n</li>"\n    "<li>Bloquear rastreadores (o actualizar opciones para permitir rastreadores)</li>"\n    "<li>Borrar para eliminar cookies e historial de b&#250;squeda y navegaci&#243;n</li>"\n  "</ul>\n</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s es producido por Mozilla. Nuestra misi&#243;n es promover una internet abierta y saludable.<br/>\n<a href="%2$s">Conocer m&#225;s</a></p>]]></string>
   <string name="preference_privacy_and_security_header">Privacidad y seguridad</string>

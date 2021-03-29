@@ -30,7 +30,7 @@
   <string name="shortcut_erase_short_label">Wissen</string>
   <string name="shortcut_erase_long_label">Navigatiegeschiedenis wissen</string>
   <string name="shortcut_erase_and_open_short_label">Wissen en openen</string>
-  <string name="shortcut_erase_and_open_long_label">Wissen en %1$s openen</string>
+  <string name="shortcut_erase_and_open_long_label2">Wissen en %1$s openen</string>
   <string name="text_selection_search_action">Privé zoeken</string>
   <string name="about_content"><![CDATA[<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s geeft u de controle.</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"Gebruik als een priv&#233;browser:\n  "<ul>"\n    "<li>Rechtstreeks vanuit de app zoeken en browsen</li>"\n    "<li>Trackers blokkeren (of instellingen bijwerken om ze toe te staan)</li>"\n    "<li>Wissen verwijdert zowel cookies als zoek- en navigatiegeschiedenis</li>"\n  "</ul>\n</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s wordt gemaakt door Mozilla. Onze missie is het verzorgen van een gezond en open internet.<br/>\n<a href="%2$s">Meer info</a></p>]]></string>
   <string name="preference_privacy_and_security_header">Privacy en beveiliging</string>

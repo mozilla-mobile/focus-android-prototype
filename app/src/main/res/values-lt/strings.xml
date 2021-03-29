@@ -30,7 +30,7 @@
   <string name="shortcut_erase_short_label">Valyti</string>
   <string name="shortcut_erase_long_label">Valyti naršymo žurnalą</string>
   <string name="shortcut_erase_and_open_short_label">Išvalyti ir atverti</string>
-  <string name="shortcut_erase_and_open_long_label">Išvalyti ir atverti „%1$s“</string>
+  <string name="shortcut_erase_and_open_long_label2">Išvalyti ir atverti „%1$s“</string>
   <string name="text_selection_search_action">Ieškoti privačiai</string>
   <string name="about_content"><![CDATA[<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">&#8222;%1$s&#8220; suteikia jums kontrol&#281;.</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"Naudokite j&#261; kaip priva&#269;i&#261; nar&#353;ykl&#281;:\n  "<ul>"\n    "<li>Ie&#353;kokite ir nar&#353;ykite pa&#269;ioje programoje</li>"\n    "<li>Blokuokite steb&#279;jimo elementus (arba atnaujinkite nustatymus, jeigu norite juos leisti)</li>"\n    "<li>I&#353;valykite, nor&#279;dami pa&#353;alinti slapukus, paie&#353;kos ir nar&#353;ymo &#382;urnalus</li>"\n  "</ul>\n</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">&#8222;%1$s&#8220; yra &#8222;Mozillos&#8220; k&#363;rinys. M&#363;s&#371; misija yra skatinti sveik&#261;, atvir&#261; internet&#261;.<br/>\n<a href="%2$s">Su&#382;inoti daugiau</a></p>]]></string>
   <string name="preference_privacy_and_security_header">Privatumas ir saugumas</string>

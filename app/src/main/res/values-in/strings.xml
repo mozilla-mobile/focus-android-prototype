@@ -30,7 +30,7 @@
   <string name="shortcut_erase_short_label">Hapus</string>
   <string name="shortcut_erase_long_label">Hapus riwayat penjelajahan</string>
   <string name="shortcut_erase_and_open_short_label">Hapus &amp; buka</string>
-  <string name="shortcut_erase_and_open_long_label">Hapus dan buka %1$s</string>
+  <string name="shortcut_erase_and_open_long_label2">Hapus dan buka %1$s</string>
   <string name="text_selection_search_action">Mencari Secara Pribadi</string>
   <string name="about_content"><![CDATA[<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s menempatkan Anda dalam kendali.</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"Gunakan sebagai peramban privat:\n  "<ul>"\n    "<li>Cari dan menjelajah langsung di dalam aplikasi</li>"\n    "<li>Memblokir pelacak (atau ubah di setelan untuk izinkan pelacak)</li>"\n    "<li>Hapus untuk menghilangkan kuki termasuk juga riwayat pencarian dan penjelajahan</li>"\n  "</ul>"\n "</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s diproduksi oleh Mozilla. Misi kami adalah untuk memelihara Internet yang sehat dan terbuka.<br/>" "<a href="%2$s">Pelajari lebih lanjut</a></p>]]></string>
   <string name="preference_privacy_and_security_header">Privasi &amp; Keamanan</string>

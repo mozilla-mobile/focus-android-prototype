@@ -30,7 +30,7 @@
   <string name="shortcut_erase_short_label">Pupus</string>
   <string name="shortcut_erase_long_label">Pupus jujutan langlangan</string>
   <string name="shortcut_erase_and_open_short_label">Pupus &amp; buka</string>
-  <string name="shortcut_erase_and_open_long_label">Pupus jeung buka %1$s</string>
+  <string name="shortcut_erase_and_open_long_label2">Pupus jeung buka %1$s</string>
   <string name="text_selection_search_action">Pamaluruhan nyalindung</string>
   <string name="about_content"><![CDATA[<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s m&#233;r&#233; anjeun kadali.</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"Pak&#233; pikeun panyungsi nyalindung:\n  "<ul>"\n    "<li>Paluruh jeung sungsi langsung dina appna</li>"\n    "<li>Peungpeuk palacak (atawa apd&#233;t set&#233;lan pikeun ngaheugba&#233;keun palacak)</li>"\n    "<li>Pupus pikeun ngaleungitkeun kuki pon kitu og&#233; jujutan pamaluruhan jeung panyungsian</li>"\n  "</ul>\n</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s dijieun ku Mozilla. Misina nya &#233;ta pikeun ngamumul&#233; Intern&#233;t nembrak anu s&#233;hat.<br/>\n<a href="%2$s">Lenyepan</a></p>]]></string>
   <string name="preference_privacy_and_security_header">Salindungan &amp; Kaamanan</string>

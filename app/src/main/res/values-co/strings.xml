@@ -30,7 +30,7 @@
   <string name="shortcut_erase_short_label">Squassà</string>
   <string name="shortcut_erase_long_label">Squassà a crunulogia di navigazione</string>
   <string name="shortcut_erase_and_open_short_label">Squassà &amp; apre</string>
-  <string name="shortcut_erase_and_open_long_label">Squassà è apre %1$s</string>
+  <string name="shortcut_erase_and_open_long_label2">Squassà è apre %1$s</string>
   <string name="text_selection_search_action">Fà una ricerca privata</string>
   <string name="about_content"><![CDATA[<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s vi aiuta &#224; gard&#224; u cuntrollu.</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"Impiegatelu cum&#8217;&#232; un navigatore privatu :\n  "<ul>"\n    "<li>Fate ricerche &#232; navigate dapoi l&#8217;appiecazione</li>"\n    "<li>Bluccate i perseguitatori (o mudific&#224; e preferenze per auturizalli)</li>"\n    "<li>Squass&#224; i canistrelli &#232; ancu e crunulogie di navigazione &#232; di ricerca</li>"\n  "</ul>\n</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s h&#232; sviluppatu da Mozilla. A nostra missione h&#232; d&#8217;incuragisce un Internet apertu &#232; in bella saluta.<br/>\n<a href="%2$s">Per sapene di pi&#249;</a></p>]]></string>
   <string name="preference_privacy_and_security_header">Vita privata &amp; sicurità</string>

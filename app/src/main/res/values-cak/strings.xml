@@ -30,7 +30,7 @@
   <string name="shortcut_erase_short_label">Tiyuj</string>
   <string name="shortcut_erase_long_label">Tiyuj runatab\'al okem pa k\'amaya\'l</string>
   <string name="shortcut_erase_and_open_short_label">Tiyuj &amp; tijaq</string>
-  <string name="shortcut_erase_and_open_long_label">Tiyuj chuqa\' tijaq %1$s</string>
+  <string name="shortcut_erase_and_open_long_label2">Tiyuj chuqa\' tijaq %1$s</string>
   <string name="text_selection_search_action">Tikanöx chi ichinem</string>
   <string name="about_content"><![CDATA[<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s nuya\' ronojel pan aq\'a\'.</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"Tawokisaj achi\'el jun ichina okik\'amaya\'l:\n  "<ul>"\n    "<li>Tikan&#246;x chuqa\' tokis&#228;x ri chokoy</li>"\n    "<li>Keq\'at ojqanela\' (o kek\'ex taq cha\'oj richin niya\' q\'ij chi ke ri ojqanela\')</li>"\n    "<li>Tiyuj richin yeyuj el taq kaxlawey chuqa\' runatab\'al kanox&#239;k chuqa\' okem pa k\'amaya\'l</li>"\n  "</ul>\n</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s Xsamajin ruma ri Mozilla. Ri taqel qataqanem ja ri niqay&#228;k qak\'u\'x richin jun jaq&#228;l chuqa\' raxin&#228;q k\'amaya\'l.<br/>\n<a href="%2$s">Tetam&#228;x ch\'aqa\' chik</a></p>]]></string>
   <string name="preference_privacy_and_security_header">Ichinanem &amp; Jikomal</string>

@@ -30,7 +30,7 @@
   <string name="shortcut_erase_short_label">Eliminar</string>
   <string name="shortcut_erase_long_label">Eliminar le chronologia de navigation</string>
   <string name="shortcut_erase_and_open_short_label">Eliminar e aperir</string>
-  <string name="shortcut_erase_and_open_long_label">Eliminar e aperir %1$s</string>
+  <string name="shortcut_erase_and_open_long_label2">Eliminar e aperir %1$s</string>
   <string name="text_selection_search_action">Cercar privatemente</string>
   <string name="about_content"><![CDATA[<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">Usante %1$s, tu es al commando.</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"Usa lo como un navigator private&#160;:\n  "<ul>"\n    "<li>Cerca e naviga directemente in le application</li>"\n    "<li>Bloca le traciatores (o actualisa le parametros pro permitter traciatores)</li>"\n    "<li>" &#8220;Eliminar&#8221; pro deler le cookies e tamben le chronologia de recercas e de navigation"</li>\n</ul>\n</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s es producite per Mozilla. Nostre mission es promover un Internet san e aperite.<br/>\n<a href="%2$s">Saper plus</a></p>]]></string>
   <string name="preference_privacy_and_security_header">Confidentialitate &amp; securitate</string>

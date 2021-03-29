@@ -30,7 +30,7 @@
   <string name="shortcut_erase_short_label">Shikpupu</string>
   <string name="shortcut_erase_long_label">Shikpupu kan nipashaluj yewa</string>
   <string name="shortcut_erase_and_open_short_label">Shikpupu wan shiktapu</string>
-  <string name="shortcut_erase_and_open_long_label">Shikpupu wan shiktapu %1$s</string>
+  <string name="shortcut_erase_and_open_long_label2">Shikpupu wan shiktapu %1$s</string>
   <string name="text_selection_search_action">Shitatejtemu ichtaka</string>
   <string name="about_content"><![CDATA[<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s metztekipanultia.</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"Shikwi kenha ken se ichtaka tajtachialis:\n  "<ul>"\n    "<li>Shitatejtemu wan shipashalu tik ne aplicaci&#243;n</li>"\n    "<li>Shiktentzakwa ne tapachiwiani (ush shitajshitia uksenpa pal tikajkawa tekiti ne tapachiwiani)</li>"\n    "<li>Shikpupu pal tikpupua cookies wan tay tiktemuj wan kan tipashaluj yewa</li>"\n  "</ul>\n</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">Mozilla kichiwtuk ne %1$s. Tiknekit tikajsit tikpiat ne Wey Matat yek wan tapujtuk.<br/>\n<a href="%2$s">Shikmatiuk</a></p>]]></string>
   <string name="preference_privacy_and_security_header">Ichtakachiwalis wan tamanawilis</string>

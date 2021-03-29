@@ -28,7 +28,7 @@
   <string name="shortcut_erase_short_label">སུབ་པ།</string>
   <string name="shortcut_erase_long_label">ཁྱོད་ཀྱི་འཚོལ་རབས་འདོར་སུབ་བྱས་ཟིན།</string>
   <string name="shortcut_erase_and_open_short_label">སུབ་པ་དང་ཁ་འབྱེད་པ།</string>
-  <string name="shortcut_erase_and_open_long_label">སུབ་ནས་%1$sཁ་འབྱེད་པ།</string>
+  <string name="shortcut_erase_and_open_long_label2">སུབ་ནས་%1$sཁ་འབྱེད་པ།</string>
   <string name="text_selection_search_action">ཕྱིར་མི་བསྒྲགས་པའི་ཐོག་འཚོལ་བཤེར།</string>
   <string name="preference_privacy_and_security_header">གསང་དོན་དང་བདེ་འཇགས།</string>
   <string name="preference_privacy_and_security_summary">"རྗེས་འདེད།  cookies གཞི་གྲངས་འདེམས་པ།"</string>
