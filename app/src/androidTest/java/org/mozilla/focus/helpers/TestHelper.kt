@@ -92,12 +92,13 @@ object TestHelper {
 
     // exit to the main view
     fun exitToTop() {
-        val homeScreen =
-            mDevice.findObject(UiSelector().resourceId("$packageName:id/keyboardLinearLayout"))
-        var homeScreenVisible = false
-        while (!homeScreenVisible) {
+        val searchBar =
+            mDevice.findObject(UiSelector().resourceId("$packageName:id/urlView"))
+        val displayURL = mDevice.findObject(UiSelector().resourceId("$packageName:id/display_url"))
+        var menuClosed = false
+        while (!menuClosed) {
             mDevice.pressBack()
-            homeScreenVisible = homeScreen.waitForExists(2000)
+            menuClosed = (searchBar.waitForExists(2000) || displayURL.waitForExists(2000))
         }
     }
 

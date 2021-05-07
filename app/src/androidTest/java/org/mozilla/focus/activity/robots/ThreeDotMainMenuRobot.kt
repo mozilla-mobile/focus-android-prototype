@@ -4,6 +4,7 @@
 
 package org.mozilla.focus.activity.robots
 
+import androidx.test.espresso.Espresso
 import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.action.ViewActions.click
 import androidx.test.espresso.assertion.ViewAssertions.matches
@@ -66,8 +67,8 @@ class ThreeDotMainMenuRobot {
         fun openSettings(interact: SettingsRobot.() -> Unit): SettingsRobot.Transition {
             mDevice.findObject(UiSelector().text("Settings")).waitForExists(waitingTime)
             settingsMenuButton
-                .check(matches(isDisplayed()))
-                .perform(click())
+                    .check(matches(isDisplayed()))
+                    .perform(click())
 
             SettingsRobot().interact()
             return SettingsRobot.Transition()
@@ -96,8 +97,8 @@ class ThreeDotMainMenuRobot {
 
         fun clickWhatsNewLink(interact: BrowserRobot.() -> Unit): BrowserRobot.Transition {
             whatsNewMenuLink
-                .check(matches(isDisplayed()))
-                .perform(click())
+                    .check(matches(isDisplayed()))
+                    .perform(click())
 
             BrowserRobot().interact()
             return BrowserRobot.Transition()
@@ -105,8 +106,17 @@ class ThreeDotMainMenuRobot {
 
         fun clickHelpPageLink(interact: BrowserRobot.() -> Unit): BrowserRobot.Transition {
             helpPageMenuLink
-                .check(matches(isDisplayed()))
-                .perform(click())
+                    .check(matches(isDisplayed()))
+                    .perform(click())
+
+            BrowserRobot().interact()
+            return BrowserRobot.Transition()
+        }
+
+        fun refreshPage(interact: BrowserRobot.() -> Unit): BrowserRobot.Transition {
+            onView(withId(R.id.refresh))
+                    .check(matches(isDisplayed()))
+                    .perform(click())
 
             BrowserRobot().interact()
             return BrowserRobot.Transition()
@@ -117,15 +127,15 @@ class ThreeDotMainMenuRobot {
 private val settingsMenuButton = onView(withId(R.id.settings))
 
 private val shareBtn = mDevice.findObject(
-    UiSelector()
-        .resourceId("$packageName:id/share")
+        UiSelector()
+                .resourceId("$packageName:id/share")
 )
 
 private val threeDotMenuButton = onView(withId(R.id.menuView))
 
 private val addToHSmenuItem = mDevice.findObject(
-    UiSelector()
-        .resourceId("$packageName:id/add_to_homescreen")
+        UiSelector()
+                .resourceId("$packageName:id/add_to_homescreen")
 )
 
 private val findInPageButton = onView(withId(R.id.find_in_page))

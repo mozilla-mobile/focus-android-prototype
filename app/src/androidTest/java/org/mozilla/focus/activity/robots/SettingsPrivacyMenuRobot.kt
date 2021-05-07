@@ -9,7 +9,9 @@ import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.ViewInteraction
 import androidx.test.espresso.action.ViewActions.click
 import androidx.test.espresso.assertion.ViewAssertions.matches
+import androidx.test.espresso.matcher.ViewMatchers.isChecked
 import androidx.test.espresso.matcher.ViewMatchers.isDisplayed
+import androidx.test.espresso.matcher.ViewMatchers.isSelected
 import androidx.test.espresso.matcher.ViewMatchers.withText
 import androidx.test.uiautomator.UiScrollable
 import androidx.test.uiautomator.UiSelector
@@ -36,6 +38,22 @@ class SettingsPrivacyMenuRobot {
     }
 
     fun switchSafeBrowsingToggle(): ViewInteraction = safeBrowsingSwitch().perform(click())
+
+    fun openCookiesSettings(): ViewInteraction = blockCookiesMenu().perform(click())
+
+    fun verifyDefaultCookiesSettings(): ViewInteraction =
+            onView(withText("Block 3rd-party tracker cookies only"))
+                    .check(matches(isChecked()))
+
+    fun selectCookieSetting(blockCookieSetting: String) =
+            onView(withText(blockCookieSetting))
+                    .perform(click())
+
+    fun switchAdTrackersToggle() = adTrackersBlockSwitch().perform(click())
+
+    fun switchAnalyticTrackersToggle() = analyticTrackersBlockSwitch().perform(click())
+
+    fun switchSocialTrackersToggle() = socialTrackersBlockSwitch().perform(click())
 
     class Transition
 }
