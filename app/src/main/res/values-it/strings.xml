@@ -30,7 +30,7 @@
   <string name="shortcut_erase_short_label">Elimina</string>
   <string name="shortcut_erase_long_label">Elimina cronologia di navigazione</string>
   <string name="shortcut_erase_and_open_short_label">Elimina e apri</string>
-  <string name="shortcut_erase_and_open_long_label">Elimina e apri %1$s</string>
+  <string name="shortcut_erase_and_open_long_label2">Elimina e apri %1$s</string>
   <string name="text_selection_search_action">Ricerca anonima</string>
   <string name="about_content"><![CDATA[<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">Prendi il controllo con %1$s.</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"Utilizzalo per la navigazione anonima:\n  "<ul>"\n    "<li>Cerca e naviga direttamente nell&#8217;app.</li>"\n    "<li>Blocca il tracciamento (o aggiorna le impostazioni per consentirlo).</li>"\n    "<li>Utilizza &#8220;Elimina&#8221; per rimuovere i cookie cos&#236; come la cronologia di ricerca e navigazione.</li>"\n  "</ul>\n</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s &#232; realizzato da Mozilla. La nostra missione &#232; promuovere un Internet integro e aperto.<br/>\n<a href="%2$s">Ulteriori informazioni</a></p>]]></string>
   <string name="preference_privacy_and_security_header">Privacy e sicurezza</string>

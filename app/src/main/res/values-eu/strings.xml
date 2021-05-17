@@ -30,7 +30,7 @@
   <string name="shortcut_erase_short_label">Ezabatu</string>
   <string name="shortcut_erase_long_label">Ezabatu nabigatze-historia</string>
   <string name="shortcut_erase_and_open_short_label">Ezabatu eta ireki</string>
-  <string name="shortcut_erase_and_open_long_label">Ezabatu eta ireki %1$s</string>
+  <string name="shortcut_erase_and_open_long_label2">Ezabatu eta ireki %1$s</string>
   <string name="text_selection_search_action">Bilatu modu pribatuan</string>
   <string name="about_content"><![CDATA[<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s(e)k agintea ematen dizu.</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"Erabili nabigatzaile pribatu gisa:\n  "<ul>"\n    "<li>Bilatu eta nabigatu aplikaziotik zuzenean</li>"\n    "<li>Blokeatu jarraipena (edo eguneratu ezarpenak jarraipena onartzeko)</li>"\n    "<li>Ezabatu cookieak eta bilaketa- eta nabigatze-historia</li>"\n  "</ul>\n</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">Mozillak egina da %1$s. Internet osasuntsu eta irekia sustatzea da gure misioa.<br/>\n<a href="%2$s">Argibide gehiago</a></p>]]></string>
   <string name="preference_privacy_and_security_header">Pribatutasuna eta segurtasuna</string>

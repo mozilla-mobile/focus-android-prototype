@@ -30,7 +30,7 @@
   <string name="shortcut_erase_short_label">Radera</string>
   <string name="shortcut_erase_long_label">Radera webbhistorik</string>
   <string name="shortcut_erase_and_open_short_label">Radera &amp; öppna</string>
-  <string name="shortcut_erase_and_open_long_label">Radera och öppna %1$s</string>
+  <string name="shortcut_erase_and_open_long_label2">Radera och öppna %1$s</string>
   <string name="text_selection_search_action">Sök privat</string>
   <string name="about_content"><![CDATA[<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s ger dig full kontroll.</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"Anv&#228;nd den som en privat webbl&#228;sare:\n  "<ul>"\n    "<li>S&#246;k och surfa direkt i appen</li>"\n    "<li>Blockera trackers (eller uppdatera inst&#228;llningar att till&#229;ta trackers)</li>"\n    "<li>Radera f&#246;r att ta bort kakor samt s&#246;k- och webbhistorik</li>"\n  "</ul>\n</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s &#228;r utvecklad av Mozilla. V&#229;rt uppdrag &#228;r att fr&#228;mja ett h&#228;lsosamt, &#246;ppet Internet.<br/>\n<a href="%2$s">L&#228;s mer</a></p>]]></string>
   <string name="preference_privacy_and_security_header">Sekretess &amp; säkerhet</string>

@@ -30,7 +30,7 @@
   <string name="shortcut_erase_short_label">Slet</string>
   <string name="shortcut_erase_long_label">Slet browser-historik</string>
   <string name="shortcut_erase_and_open_short_label">Slet og åbn</string>
-  <string name="shortcut_erase_and_open_long_label">Slet og åbn %1$s</string>
+  <string name="shortcut_erase_and_open_long_label2">Slet og åbn %1$s</string>
   <string name="text_selection_search_action">Søg privat</string>
   <string name="about_content"><![CDATA[<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s giver dig fuld kontrol.</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"Anvend den som privat browser:\n  "<ul>"\n    "<li>S&#248;g og surf direkte i appen</li>"\n    "<li>Bloker sporing (eller opdater indstillingerne og tillad sporing)</li>"\n    "<li>Slet fjerner cookies samt s&#248;ge- og browser-historik</li>"\n  "</ul>\n</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s er udviklet af Mozilla. Vores form&#229;l er at fremme et sundt, &#229;bent internet.<br/>\n<a href="%2$s">L&#230;s mere</a></p>]]></string>
   <string name="preference_privacy_and_security_header">Privatliv og sikkerhed</string>

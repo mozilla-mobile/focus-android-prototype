@@ -30,7 +30,7 @@
   <string name="shortcut_erase_short_label">Sil</string>
   <string name="shortcut_erase_long_label">Gezinti geçmişini sil</string>
   <string name="shortcut_erase_and_open_short_label">Sil ve aç</string>
-  <string name="shortcut_erase_and_open_long_label">Sil ve %1$s’u aç</string>
+  <string name="shortcut_erase_and_open_long_label2">Sil ve %1$s’u aç</string>
   <string name="text_selection_search_action">Gizli arama</string>
   <string name="about_content"><![CDATA[<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s kontrol&#252; size verir.</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"Onu gizlilik odakl&#305; bir taray&#305;c&#305; olarak kullanabilirsiniz:\n  "<ul>"\n    "<li>Do&#287;rudan uygulamada arama yapabilir ve web&#8217;de gezinebilirsiniz</li>"\n    "<li>Takip&#231;ileri engelleyebilirsiniz (veya belli takip&#231;ilere izin verebilirsiniz)</li>"\n    "<li>Tek d&#252;&#287;meyle &#231;erezleri, arama ve gezinti ge&#231;mi&#351;inizi silebilirsiniz</li>"\n  "</ul>\n</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s Mozilla taraf&#305;ndan geli&#351;tirilmi&#351;tir. Misyonumuz daha sa&#287;l&#305;kl&#305; ve a&#231;&#305;k bir internet yaratmakt&#305;r.<br/>\n<a href="%2$s">Daha fazla bilgi al&#305;n</a></p>]]></string>
   <string name="preference_privacy_and_security_header">Gizlilik ve Güvenlik</string>

@@ -30,7 +30,7 @@
   <string name="shortcut_erase_short_label">Ŕmar</string>
   <string name="shortcut_erase_long_label">Sal amchu mujiñ</string>
   <string name="shortcut_erase_and_open_short_label">Ŕmar e sol</string>
-  <string name="shortcut_erase_and_open_long_label">Ŕmar e sol %1$s</string>
+  <string name="shortcut_erase_and_open_long_label2">Ŕmar e sol %1$s</string>
   <string name="text_selection_search_action">Jabchu tpaay chŕmee</string>
   <string name="about_content"><![CDATA[<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s hay kamwi &#241;umyabuyiib m&#180;ee.</p><p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"Sal amchu jabch tpay muliwu &#241;umtrcheech\n  "<ul>"\n    "<li>Aplicaci&#243;n hal mjaab sal mtrchech</li>"\n    "<li>Sal kch&#341;meech paa mtket( o janmiwuham mnyam baam mchii)</li>"\n    "<li>M&#341;mar chapayt muji&#241; hikyaaw cookies ee kur chkjkeech ee ch&#341;meech sal amchu</li>"\n  "</ul></p><p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s ha Mozilla hay uchpach. Chawiwchuha inernet krryeey paa ee hi kyawa.<br/><a href="%2$s">Ch&#341;poraab</a></p>]]></string>
   <string name="preference_privacy_and_security_header">Jabchu tpaay ŕbokjanchu</string>

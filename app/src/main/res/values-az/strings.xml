@@ -30,7 +30,7 @@
   <string name="shortcut_erase_short_label">Poz</string>
   <string name="shortcut_erase_long_label">Səyahət keçmişini poz</string>
   <string name="shortcut_erase_and_open_short_label">Poz və Aç</string>
-  <string name="shortcut_erase_and_open_long_label">Poz və %1$s tətbiqini aç</string>
+  <string name="shortcut_erase_and_open_long_label2">Poz və %1$s tətbiqini aç</string>
   <string name="text_selection_search_action">Məxfi Axtar</string>
   <string name="about_content"><![CDATA[<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s sizi idar&#601;nin ba&#351;&#305;na qoyur</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"Bunu m&#601;xfi s&#601;yyah olaraq i&#351;l&#601;din:\n  "<ul>"\n    "<li>Birba&#351;a t&#601;tbiqd&#601; axtar&#305;n v&#601; g&#601;zin</li>"\n    "<li>&#304;zl&#601;yicil&#601;ri &#601;ng&#601;ll&#601;yin (v&#601; ya t&#601;nziml&#601;m&#601;d&#601;n icaz&#601; verin)</li>"\n    "<li>&#199;&#601;r&#601;zl&#601;ri, axtar&#305;&#351; v&#601; g&#601;zm&#601; tarix&#231;&#601;sini silm&#601;k &#252;&#231;&#252;n pozun</li>"\n  "</ul>\n</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s q&#252;rurla Mozilla t&#601;r&#601;find&#601;n. Missiyam&#305;z sa&#287;lam v&#601; a&#231;&#305;q interneti t&#601;min etm&#601;kdir.<br/>\n<a href="%2$s">&#399;trafl&#305; &#246;yr&#601;n</a></p>]]></string>
   <string name="preference_privacy_and_security_header">Məxfilik və Təhlükəsizlik</string>

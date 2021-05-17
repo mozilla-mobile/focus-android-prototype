@@ -30,7 +30,7 @@
   <string name="shortcut_erase_short_label">Xiná</string>
   <string name="shortcut_erase_long_label">Xiná daa nnánukunu</string>
   <string name="shortcut_erase_and_open_short_label">Xita jee síne</string>
-  <string name="shortcut_erase_and_open_long_label">Xita jee síne %1$s</string>
+  <string name="shortcut_erase_and_open_long_label2">Xita jee síne %1$s</string>
   <string name="text_selection_search_action">Nánuku yɨ´ɨ yu´u</string>
   <string name="about_content"><![CDATA[<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s taji kajinu.</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"Ni&#180;ima kua iin nuu n&#225;nuku privado:\n  "<ul>"\n    "<li>N&#225;nuku jee kaka nuu ka&#225; ya&#180;a</li>"\n    "<li>Chiyu&#180;u daa a nita no&#180;o (a xiin kaji kuvi kuntadaja no&#180;o)</li>"\n    "<li>Xina saa kuvi na&#225; cokies jii daa tu&#180;un nn&#225;nukunu</li>"\n  "</ul>\n</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s kuviji iin nsa&#180;a Mozilla. Nuku-ani iin internet vii jee va&#180;a<br/>\n<a href="%2$s">Learn more</a></p>]]></string>
   <string name="preference_privacy_and_security_header">Privacidad jii seguridad</string>

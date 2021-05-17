@@ -30,7 +30,7 @@
   <string name="shortcut_erase_short_label">Forviŝi</string>
   <string name="shortcut_erase_long_label">Forviŝi retuman historion</string>
   <string name="shortcut_erase_and_open_short_label">Forigi kaj malfermi</string>
-  <string name="shortcut_erase_and_open_long_label">Forigi kaj malfermi %1$s</string>
+  <string name="shortcut_erase_and_open_long_label2">Forigi kaj malfermi %1$s</string>
   <string name="text_selection_search_action">Serĉi private</string>
   <string name="about_content"><![CDATA[<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s igas vin reganto.</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"Uzu &#285;in kiel privatan retumilon:\n  "<ul>"\n    "<li>Ser&#265;i kaj retumi rekte en la programo</li>"\n    "<li>Bloki spurilojn (a&#365; &#349;an&#285;i agordojn por permesi spurilojn)</li>"\n    "<li>Forigi kuketojn kaj anka&#365; retuman kaj ser&#265;an historion</li>"\n  "</ul>\n</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s estas farita de Mozilla. Nia misio estas stimuli sanan kaj malfermitan interreton.<br/>\n<a href="%2$s">Pli da informo</a></p>]]></string>
   <string name="preference_privacy_and_security_header">Privateco kaj sekureco</string>

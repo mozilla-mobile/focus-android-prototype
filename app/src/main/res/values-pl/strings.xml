@@ -30,7 +30,7 @@
   <string name="shortcut_erase_short_label">Usuń historię</string>
   <string name="shortcut_erase_long_label">Usuń historię przeglądania</string>
   <string name="shortcut_erase_and_open_short_label">Usuń i otwórz</string>
-  <string name="shortcut_erase_and_open_long_label">Usuń i otwórz %1$s</string>
+  <string name="shortcut_erase_and_open_long_label2">Usuń i otwórz %1$s</string>
   <string name="text_selection_search_action">Wyszukaj prywatnie</string>
   <string name="about_content"><![CDATA[<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s daje wi&#281;ksz&#261; kontrol&#281;.</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"Jako prywatna przegl&#261;darka umo&#380;liwia:\n  "<ul>"\n    "<li>wyszukiwanie i&#160;przegl&#261;danie prosto z&#160;aplikacji</li>"\n    "<li>blokowanie &#347;ledzenia (mo&#380;na to zmieni&#263; w&#160;ustawieniach)</li>"\n    "<li>usuwanie ciasteczek oraz ca&#322;ej historii wyszukiwania i&#160;przegl&#261;dania</li>"\n  "</ul>\n</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s jest tworzony przez Mozill&#281;. Naszym celem jest wspieranie zdrowego i&#160;otwartego Internetu.<br/>\n<a href="%2$s">Wi&#281;cej informacji</a></p>]]></string>
   <string name="preference_privacy_and_security_header">Prywatność i bezpieczeństwo</string>

@@ -30,7 +30,7 @@
   <string name="shortcut_erase_short_label">Buang</string>
   <string name="shortcut_erase_long_label">Buang sejarah pelayaran</string>
   <string name="shortcut_erase_and_open_short_label">Buang &amp; buka</string>
-  <string name="shortcut_erase_and_open_long_label">Buang dan buka %1$s</string>
+  <string name="shortcut_erase_and_open_long_label2">Buang dan buka %1$s</string>
   <string name="text_selection_search_action">Cari secara Rahsia</string>
   <string name="about_content"><![CDATA[<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s membolehkan anda mengawal.</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"Gunakannya sebagai pelayar peribadi:\n  "<ul>"\n    "<li>Cari dan melayar terus dalam app</li>"\n    "<li>Sekat penjejak (atau kemaskini tetapan untuk izinkan penjejak)</li>"\n    "<li>Padam untuk menghapuskan kuki serta sejarah carian dan pelayaran</li>"\n  "</ul>\n</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s dihasilkan oleh Mozilla. Misi kami adalah untuk memupuk internet yang sihat dan terbuka.<br/>\n<a href="%2$s">Ketahui selanjutnya</a></p>]]></string>
   <string name="preference_privacy_and_security_header">Privasi &amp; Keselamatan</string>

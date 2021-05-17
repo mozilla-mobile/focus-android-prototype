@@ -30,7 +30,7 @@
   <string name="shortcut_erase_short_label">Lašowaś</string>
   <string name="shortcut_erase_long_label">Pśeglědowańsku historiju lašowaś</string>
   <string name="shortcut_erase_and_open_short_label">Wulašowaś a wócyniś</string>
-  <string name="shortcut_erase_and_open_long_label">%1$s lašowaś a wócyniś</string>
+  <string name="shortcut_erase_and_open_long_label2">%1$s lašowaś a wócyniś</string>
   <string name="text_selection_search_action">Priwatnje pytaś</string>
   <string name="about_content"><![CDATA[<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s dajo was kontrolu wobchowa&#347;.</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"Wu&#382;ywaj&#347;o jen ako priwatny wobgl&#283;dowak:\n  "<ul>"\n    "<li>Pytaj&#347;o a p&#347;egl&#283;duj&#347;o direktnje w na&#322;o&#382;enju</li>"\n    "<li>Blok&#283;ruj&#347;o p&#347;esl&#283;dowaki (abo aktualiz&#283;ruj&#347;o nastajenja, aby p&#347;esl&#283;dowaki dow&#243;li&#322;)</li>"\n    "<li>La&#353;uj&#347;o cookieje a pyta&#324;sku a p&#347;egl&#283;dowa&#324;sku historiju</li>"\n  "</ul>\n</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s se w&#243;t Mozilla wuwija. Na&#353;a misija jo sp&#283;chowanje strowego, w&#243;tw&#243;rjonego interneta.<br/>\n<a href="%2$s">Dal&#353;ne informacije</a></p>]]></string>
   <string name="preference_privacy_and_security_header">Priwatnosć a wěstota</string>

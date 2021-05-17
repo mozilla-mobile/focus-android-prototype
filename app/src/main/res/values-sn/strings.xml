@@ -30,7 +30,7 @@
   <string name="shortcut_erase_short_label">Dzima</string>
   <string name="shortcut_erase_long_label">Dzima zvawaita paindaneti</string>
   <string name="shortcut_erase_and_open_short_label">Dzima wovhura</string>
-  <string name="shortcut_erase_and_open_long_label">Dzima wovhura %1$s</string>
+  <string name="shortcut_erase_and_open_long_label2">Dzima wovhura %1$s</string>
   <string name="text_selection_search_action">Tsvaga pachivande</string>
   <string name="about_content"><![CDATA[<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">" %1$s inokuisa mukutonga."</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">Kushandise sevhisi yega yega: \n<ul><li>Tsvaga uye tenderera mberi pari purogiramu</li>" \n    "<li>Chengeta vateereri (kana kuti zvirongwa zvekugadzirisa kuti zvibvumire vateereri)</li>"\n    "<li>Dzima kuti ubvise makuki pamwe nhoroondo yekutsvaga</li>"\n  "</ul>\n</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s inobudiswa neMozilla. Chinangwa chedu ndechekusimudzira Indaneti, yakashama.<br/>" "<a href="%2$s">Dzidza ZVIMWE</a></p>]]></string>
   <string name="preference_privacy_and_security_header">Kuchengeteka ne Puraivhesi</string>

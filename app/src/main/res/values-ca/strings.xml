@@ -30,7 +30,7 @@
   <string name="shortcut_erase_short_label">Esborra</string>
   <string name="shortcut_erase_long_label">Esborra l\'historial de navegació</string>
   <string name="shortcut_erase_and_open_short_label">Esborra i obre</string>
-  <string name="shortcut_erase_and_open_long_label">Esborra i obre el %1$s</string>
+  <string name="shortcut_erase_and_open_long_label2">Esborra i obre el %1$s</string>
   <string name="text_selection_search_action">Cerca privada</string>
   <string name="about_content"><![CDATA[<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">El %1$s us d&#243;na el control.</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"Com a navegador privat, us permet:\n  "<ul>"\n    "<li>Cercar i navegar directament des de l\'aplicaci&#243;</li>"\n    "<li>Blocar els elements de seguiment (o canviar els par&#224;metres per permetre\'ls)</li>"\n    "<li>Esborrar les galetes i l\'historial de cerques i de navegaci&#243;</li>"\n  "</ul>\n</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">El %1$s est&#224; creat per Mozilla. La nostra missi&#243; &#233;s fomentar un Internet obert i saludable.<br/>\n<a href="%2$s">M&#233;s informaci&#243;</a></p>]]></string>
   <string name="preference_privacy_and_security_header">Privadesa i seguretat</string>

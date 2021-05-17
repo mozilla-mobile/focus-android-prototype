@@ -30,7 +30,7 @@
   <string name="shortcut_erase_short_label">Apagar</string>
   <string name="shortcut_erase_long_label">Apagar o histórico de navegação</string>
   <string name="shortcut_erase_and_open_short_label">Apagar e abrir</string>
-  <string name="shortcut_erase_and_open_long_label">Apagar e abrir %1$s</string>
+  <string name="shortcut_erase_and_open_long_label2">Apagar e abrir %1$s</string>
   <string name="text_selection_search_action">Pesquisa privativa</string>
   <string name="about_content"><![CDATA[<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s coloca voc&#234; no controle.</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"Use-o como o seu navegador privativo:\n  "<ul>"\n    "<li>Pesquise e navegue direto no aplicativo</li>"\n    "<li>Bloqueie rastreadores (ou atualize as configura&#231;&#245;es para permiti-los)</li>"\n    "<li>Apague para excluir cookies assim como o hist&#243;rico de pesquisa e navega&#231;&#227;o</li>"\n  "</ul>\n</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s &#233; produzido pela Mozilla. Nossa miss&#227;o &#233; promover uma Internet saud&#225;vel e aberta.<br/>\n<a href="%2$s">Saiba mais</a></p>]]></string>
   <string name="preference_privacy_and_security_header">Privacidade e Segurança</string>

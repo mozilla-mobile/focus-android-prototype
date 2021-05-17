@@ -30,7 +30,7 @@
   <string name="shortcut_erase_short_label">Slett</string>
   <string name="shortcut_erase_long_label">Slett nettleserhistorikk</string>
   <string name="shortcut_erase_and_open_short_label">Slett og åpne</string>
-  <string name="shortcut_erase_and_open_long_label">Slett og åpne %1$s</string>
+  <string name="shortcut_erase_and_open_long_label2">Slett og åpne %1$s</string>
   <string name="text_selection_search_action">Søk privat</string>
   <string name="about_content"><![CDATA[<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s gir deg kontroll.</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"Bruk den som en privat nettleser:\n  "<ul>"\n    "<li>S&#248;k og surf rett i appen</li>"\n    "<li>Blokker sporere (eller oppdater innstillingene for &#229; tillate sporere)</li>"\n    "<li>Slett for &#229; fjerne infokapsler samt s&#248;k- og nettleserhistorikk</li>"\n  "</ul>\n</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s er produsert av Mozilla. V&#229;r misjon er &#229; fremme et sunt, &#229;pent Internett.<br/>\n<a href="%2$s">Les mer</a></p>]]></string>
   <string name="preference_privacy_and_security_header">Personvern og sikkerhet</string>

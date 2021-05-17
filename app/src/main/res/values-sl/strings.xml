@@ -30,7 +30,7 @@
   <string name="shortcut_erase_short_label">Izbriši</string>
   <string name="shortcut_erase_long_label">Počisti zgodovino brskanja</string>
   <string name="shortcut_erase_and_open_short_label">Izbriši in odpri</string>
-  <string name="shortcut_erase_and_open_long_label">Izbriši in odpri %1$s</string>
+  <string name="shortcut_erase_and_open_long_label2">Izbriši in odpri %1$s</string>
   <string name="text_selection_search_action">Iščite zasebno</string>
   <string name="about_content"><![CDATA[<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s daje nadzor v va&#353;e roke.</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"Uporabljajte ga kot zaseben brskalnik:\n  "<ul>"\n    "<li>I&#353;&#269;ite in brskajte naravnost iz aplikacije</li>"\n    "<li>Zavra&#269;ajte sledilce (ali spremenite nastavitve zavra&#269;anja sledilcev)</li>"\n    "<li>Bri&#353;ite pi&#353;kotke ter zgodovino strani in iskanja</li>"\n  "</ul>\n</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s razvija Mozilla. Na&#353;e poslanstvo je spodbujati zdrav in odprt internet.<br/>\n<a href="%2$s">Ve&#269; o tem</a></p>]]></string>
   <string name="preference_privacy_and_security_header">Zasebnost in varnost</string>

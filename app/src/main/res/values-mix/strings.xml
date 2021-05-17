@@ -30,7 +30,7 @@
   <string name="shortcut_erase_short_label">Stoo</string>
   <string name="shortcut_erase_long_label">Stòo ña ndukuku sata</string>
   <string name="shortcut_erase_and_open_short_label">Stoo ra kuna</string>
-  <string name="shortcut_erase_and_open_long_label">Stoo tsi kuna %1$s</string>
+  <string name="shortcut_erase_and_open_long_label2">Stoo tsi kuna %1$s</string>
   <string name="text_selection_search_action">Nduku Sèè</string>
   <string name="about_content"><![CDATA[<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s Kuu kuachu\'un&#241;a.</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"Kuu nduku seu &#241;a\'a:\n  "<ul>"\n    "<li>Nduku &#241;a kunu nu kaa ndusu\'ku</li>"\n    "<li>Kasi &#241;a kuni kunche\'e &#241;a sau)</li>"\n    "<li>Stoo cookies tsi &#241;a ndukuku sata</li>"\n  "</ul>\n</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s Mozilla sai. Kunikue iin Internet nuna &#241;a kuu kuchu\'un ntina yivi.<br/>\n<a href="%2$s">kavi cha kutua</a></p>]]></string>
   <string name="preference_privacy_and_security_header">Ña i\'í tsi Ña kunka vai</string>

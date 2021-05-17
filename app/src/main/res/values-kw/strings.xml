@@ -30,7 +30,7 @@
   <string name="shortcut_erase_short_label">Dilea</string>
   <string name="shortcut_erase_long_label">Dilea an istori peuri</string>
   <string name="shortcut_erase_and_open_short_label">Dilea &amp; ygeri</string>
-  <string name="shortcut_erase_and_open_long_label">Dilea hag ygeri %1$s</string>
+  <string name="shortcut_erase_and_open_long_label2">Dilea hag ygeri %1$s</string>
   <string name="text_selection_search_action">Hwilas yn privedh</string>
   <string name="about_content"><![CDATA[<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">Gans %1$s yth esowgh hwi ow kul maystri.</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"Gwrewgh hy usya avel peurell brivedh:\n  "<ul>"\n    "<li>Hwilas ha peuri a-berth y\'n dowlen</li>"\n    "<li>Lettya helerghellow (po ri kummyas dhedha y\'n settyansow)</li>"\n    "<li>Dilea cookies, keffrys ha istori hwilas ha peuri</li>"\n  "</ul>\n</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">Askorrys gans Mozilla yw %1$s. Agan amkan yw maga kesrosweyth yagh hag ygor.<br/>\n<a href="%2$s">Dyski moy</a></p>]]></string>
   <string name="preference_privacy_and_security_header">Privetter ha sekerder</string>

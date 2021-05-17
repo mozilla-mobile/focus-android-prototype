@@ -30,7 +30,7 @@
   <string name="shortcut_erase_short_label">Nadure\'</string>
   <string name="shortcut_erase_long_label">Narè\' nej nuguan\' garajsunt nga ganana\'uî\'t</string>
   <string name="shortcut_erase_and_open_short_label">Dure\' ni na\'nint</string>
-  <string name="shortcut_erase_and_open_long_label">Nadure\' ni na\'nïnt %1$s</string>
+  <string name="shortcut_erase_and_open_long_label2">Nadure\' ni na\'nïnt %1$s</string>
   <string name="text_selection_search_action">Nana\'uì\' riña hua huìi</string>
   <string name="about_content"><![CDATA[<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s narikij kontrol ri&#241;at.</p>" \n"<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">garasun da\' gache nu hu&#236;t: \n<ul>" \n"<li>Nana\'u&#236;\' ni gache nunt ne\' hu&#224;\'t ng&#224; app</li>" \n"<li>Narr&#224;n ri&#241;a blokeador (si nitaj ni guij nagi\'iaj da\' ga\'ue ga\'n&#239;nt gi\'iaj sun man)</li>" "<li>nadure\' da\' nar&#232;\' cookies danj nanj nej nuguan\' gachr&#251;nt nga gach&#233; nunt</li>" \n"</ul>"\n "</p>" \n"<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"%1$s Sa giri Mozilla huin.  Chrej nik&#242;\' &#241;&#251;nj huin sisi ga ni\'n&#239;nj ni dugumin internet s&#242;\'."<br/>" \n"<a href="%2$s">Gini\'in doj rayi\'&#238; nuguan\' na</a></p>]]></string>
   <string name="preference_privacy_and_security_header">Sa huìi nī sa dugumin</string>

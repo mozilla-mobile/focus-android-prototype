@@ -30,7 +30,7 @@
   <string name="shortcut_erase_short_label">Dileu</string>
   <string name="shortcut_erase_long_label">Dileu\'r hanes pori</string>
   <string name="shortcut_erase_and_open_short_label">Dileu ac agor</string>
-  <string name="shortcut_erase_and_open_long_label">Dileu ac agor %1$s</string>
+  <string name="shortcut_erase_and_open_long_label2">Dileu ac agor %1$s</string>
   <string name="text_selection_search_action">Chwilio\'n Breifat</string>
   <string name="about_content"><![CDATA[<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">Gyda %1$s chi sy\'n rheoli.</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"Ei ddefnyddio fel porwr preifat:\n  "<ul>"\n    "<li>Chwilio a phori o fewn yr ap</li>"\n    "<li>Rhwystro tracwyr (neu ddiweddaru\'r gosodiadau i ganiat&#225;u tracwyr)</li>"\n    "<li>Dileu cwcis, yn ogystal &#226; hanes chwilio a phori</li>"\n  "</ul>\n</p>\n<p xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">Mae %1$s wedi ei gynhyrchu gan Mozilla. Ein amcan yw i hybu Rhyngrwyd iach ac agored.<br/>\n<a href="%2$s">Dysgu rhagor</a></p>]]></string>
   <string name="preference_privacy_and_security_header">Preifatrwydd a Diogelwch</string>
