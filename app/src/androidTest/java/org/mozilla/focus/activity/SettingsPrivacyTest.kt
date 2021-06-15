@@ -129,7 +129,6 @@ class SettingsPrivacyTest {
 
 
     @Test
-    //("Failing due to bug?: https://github.com/mozilla-mobile/focus-android/issues/4740")
     fun testBlockNoCookies() {
         val trackingPageUrl = "https://senglehardt.com/test/trackingprotection/test_pages/tracking_protection.html"
 
