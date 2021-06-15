@@ -14,10 +14,14 @@ import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.espresso.matcher.ViewMatchers.withText
 import androidx.test.uiautomator.UiSelector
 import junit.framework.TestCase.assertTrue
+import org.junit.Assert
 import org.mozilla.focus.R
+import org.mozilla.focus.helpers.TestHelper
 import org.mozilla.focus.helpers.TestHelper.mDevice
 import org.mozilla.focus.helpers.TestHelper.packageName
 import org.mozilla.focus.helpers.TestHelper.waitingTime
+import org.mozilla.focus.helpers.TestHelper.webPageLoadwaitingTime
+import org.mozilla.focus.idlingResources.SessionLoadedIdlingResource
 
 class ThreeDotMainMenuRobot {
 
@@ -114,9 +118,16 @@ class ThreeDotMainMenuRobot {
         }
 
         fun refreshPage(interact: BrowserRobot.() -> Unit): BrowserRobot.Transition {
-            onView(withId(R.id.refresh))
-                    .check(matches(isDisplayed()))
-                    .perform(click())
+            val sessionLoadedIdlingResource = SessionLoadedIdlingResource()
+            runWithIdleRes(sessionLoadedIdlingResource) {
+                onView(withId(R.id.refresh))
+                        .check(matches(isDisplayed()))
+                        .perform(click())
+
+                assertTrue(
+                        BrowserRobot().progressBar.waitUntilGone(webPageLoadwaitingTime)
+                )
+            }
 
             BrowserRobot().interact()
             return BrowserRobot.Transition()

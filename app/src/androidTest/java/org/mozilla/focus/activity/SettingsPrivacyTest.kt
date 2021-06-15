@@ -30,6 +30,7 @@ class SettingsPrivacyTest {
     fun setUp() {
         webServer = MockWebServer()
         webServer.enqueue(createMockResponseFromAsset("tracking-cookies.html"))
+        webServer.enqueue(createMockResponseFromAsset("tracking-cookies.html"))
         webServer.start()
     }
 
@@ -44,25 +45,31 @@ class SettingsPrivacyTest {
         }
     }
 
-    @Ignore("Failing due to bug: https://github.com/mozilla-mobile/focus-android/issues/4864")
+    // @Ignore("Failing due to bug: https://github.com/mozilla-mobile/focus-android/issues/4864")
     @Test
     fun privacyTrackersToggleTest() {
         val trackingPageUrl = webServer.url("").toString()
+
+        searchScreen {
+        }.loadPage("test") {
+        }.clearBrowsingData {}
 
         searchScreen {
         }.loadPage(trackingPageUrl) {
             verifyPageContent("social tracking blocked")
             verifyPageContent("ads tracking blocked")
             verifyPageContent("analytics tracking blocked")
-        /* Go to settings and disable everything */
+            /* Go to settings and disable everything */
         }.openMainMenu {
         }.openSettings {
         }.openPrivacySettingsMenu {
             switchAdTrackersToggle()
             switchAnalyticTrackersToggle()
             switchSocialTrackersToggle()
+            switchOtherTrackersToggle()
             exitToTop()
         }
+
         browserScreen {
         }.openMainMenu {
         }.refreshPage {
@@ -121,7 +128,8 @@ class SettingsPrivacyTest {
     }
 
 
-    @Test("Failing due to bug?: https://github.com/mozilla-mobile/focus-android/issues/4740")
+    @Test
+    //("Failing due to bug?: https://github.com/mozilla-mobile/focus-android/issues/4740")
     fun testBlockNoCookies() {
         val trackingPageUrl = "https://senglehardt.com/test/trackingprotection/test_pages/tracking_protection.html"
 

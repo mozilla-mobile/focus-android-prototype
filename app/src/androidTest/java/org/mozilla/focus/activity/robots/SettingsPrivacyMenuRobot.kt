@@ -55,6 +55,8 @@ class SettingsPrivacyMenuRobot {
 
     fun switchSocialTrackersToggle() = socialTrackersBlockSwitch().perform(click())
 
+    fun switchOtherTrackersToggle() = otherContentTrackersBlockSwitch().perform(click())
+
     class Transition
 }
 
