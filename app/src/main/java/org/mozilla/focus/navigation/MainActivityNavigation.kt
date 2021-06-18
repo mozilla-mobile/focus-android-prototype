@@ -27,6 +27,7 @@ import org.mozilla.focus.settings.RemoveSearchEnginesSettingsFragment
 import org.mozilla.focus.settings.SearchSettingsFragment
 import org.mozilla.focus.settings.SettingsFragment
 import org.mozilla.focus.state.Screen
+import org.mozilla.focus.utils.MvpFeatureManager
 import org.mozilla.focus.utils.ViewUtils
 
 /**
@@ -47,8 +48,12 @@ class MainActivityNavigation(
         val crashReporterIsVisible = browserFragment?.crashReporterIsVisible() ?: false
 
         if (isShowingBrowser && !crashReporterIsVisible) {
+            val feedbackEraseId = if (MvpFeatureManager.isEnabled)
+                R.string.mvp_feedback_erase
+            else
+                R.string.feedback_erase
             ViewUtils.showBrandedSnackbar(activity.findViewById(android.R.id.content),
-                R.string.feedback_erase,
+                feedbackEraseId,
                 activity.resources.getInteger(R.integer.erase_snackbar_delay))
         }
 
