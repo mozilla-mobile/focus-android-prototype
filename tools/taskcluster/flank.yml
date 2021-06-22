@@ -61,7 +61,7 @@ flank:
   output-style: compact
   # repeat tests - the amount of times to run the tests.
   # 1 runs the tests once. 10 runs all the tests 10x
-  num-test-runs: 5
+  num-test-runs: 30
   # always run - these tests are inserted at the beginning of every shard
   # useful if you need to grant permissions or login before other tests run
   #test-targets-always-run:
