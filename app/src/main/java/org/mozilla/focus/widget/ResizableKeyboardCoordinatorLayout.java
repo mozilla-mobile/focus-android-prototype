@@ -6,8 +6,10 @@
 package org.mozilla.focus.widget;
 
 import android.content.Context;
-import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import android.util.AttributeSet;
+import android.view.View;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import java.util.ArrayList;
 
 /**
  * A CoordinatorLayout implementation that resizes dynamically based on whether a keyboard is visible or not.
@@ -41,5 +43,12 @@ public class ResizableKeyboardCoordinatorLayout extends CoordinatorLayout {
         super.onDetachedFromWindow();
 
         delegate.onDetachedFromWindow();
+    }
+
+    /**
+     * A set method to populate the list of views which should be hidden when the keyboard is shown
+     */
+    public void updateDynamicViews(ArrayList<View> dynamicViews) {
+        delegate.dynamicViews = dynamicViews;
     }
 }
