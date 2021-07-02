@@ -7,6 +7,7 @@ package org.mozilla.focus.telemetry
 import android.content.Context
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers.IO
+import kotlinx.coroutines.Dispatchers.Main
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.async
 import kotlinx.coroutines.launch
@@ -79,7 +80,9 @@ class GleanMetricsService(context: Context) : MetricsService {
     private fun collectPrefMetrics(
         components: Components,
         settings: Settings
-    ) = CoroutineScope(IO).async {
+    ) = CoroutineScope(Main).async {
+        // Doing this on Main because this might be the first time BrowserStore is accessed and initialized
+        // and this needs to be done on the Main thread.
         Browser.isDefault.set(settings.isDefaultBrowser())
         Browser.localeOverride.set(components.store.state.locale?.displayName ?: "none")
     }
