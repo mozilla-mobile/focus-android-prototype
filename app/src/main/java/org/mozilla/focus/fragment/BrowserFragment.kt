@@ -244,18 +244,6 @@ class BrowserFragment :
     private fun customizeToolbar(view: View) {
         val browserToolbar = view.findViewById<BrowserToolbar>(R.id.browserToolbar)
 
-        toolbarIntegration.set(
-            BrowserToolbarIntegration(
-                requireComponents.store,
-                browserToolbar,
-                fragment = this,
-                customTabId = if (tab.isCustomTab()) { tab.id } else { null },
-                customTabsUseCases = requireComponents.customTabsUseCases,
-                sessionUseCases = requireComponents.sessionUseCases
-            ),
-            owner = this,
-            view = browserToolbar
-        )
         if (MvpFeatureManager.isEnabled) {
             val controller = MvpBrowserMenuController(
                 this,
@@ -280,6 +268,19 @@ class BrowserFragment :
             }
             setOnUrlLongClickListener { onUrlLongClicked() }
         }
+
+        toolbarIntegration.set(
+            BrowserToolbarIntegration(
+                requireComponents.store,
+                browserToolbar,
+                fragment = this,
+                customTabId = if (tab.isCustomTab()) { tab.id } else { null },
+                customTabsUseCases = requireComponents.customTabsUseCases,
+                sessionUseCases = requireComponents.sessionUseCases
+            ),
+            owner = this,
+            view = browserToolbar
+        )
     }
 
     private fun initialiseNormalBrowserUi(view: View) {

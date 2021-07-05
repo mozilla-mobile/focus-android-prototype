@@ -4,8 +4,10 @@
 package org.mozilla.focus.menu.browser
 
 import android.content.Context
+import androidx.core.content.ContextCompat
 import mozilla.components.browser.menu.BrowserMenuBuilder
 import mozilla.components.browser.menu.BrowserMenuHighlight
+import mozilla.components.browser.menu.item.BrowserMenuDivider
 import mozilla.components.browser.menu.item.BrowserMenuHighlightableItem
 import mozilla.components.browser.menu.item.BrowserMenuImageSwitch
 import mozilla.components.browser.menu.item.BrowserMenuImageText
@@ -109,7 +111,7 @@ class MvpBrowserMenu(
             onItemTapped.invoke(ToolbarMenu.Item.RequestDesktop(checked))
         }
 
-        val reportSiteIssue = WebExtensionPlaceholderMenuItem(
+        val reportSiteIssuePlaceholder = WebExtensionPlaceholderMenuItem(
             id = WebCompatReporterFeature.WEBCOMPAT_REPORTER_EXTENSION_ID
         )
 
@@ -125,7 +127,7 @@ class MvpBrowserMenu(
             startImageResource = R.drawable.ic_help,
             textColorResource = ThemeManager.resolveAttribute(R.attr.primaryText, context),
             highlight = BrowserMenuHighlight.HighPriority(
-                backgroundTint = ThemeManager.resolveAttribute(R.attr.primaryText, context),
+                backgroundTint = ContextCompat.getColor(context, R.color.mvp_browser_menu_bg),
                 canPropagate = false
             )
         ) {
@@ -137,7 +139,7 @@ class MvpBrowserMenu(
             startImageResource = R.drawable.ic_mvp_settings,
             textColorResource = ThemeManager.resolveAttribute(R.attr.primaryText, context),
             highlight = BrowserMenuHighlight.HighPriority(
-                backgroundTint = ThemeManager.resolveAttribute(R.attr.primaryText, context),
+                backgroundTint = ContextCompat.getColor(context, R.color.mvp_browser_menu_bg),
                 canPropagate = false
             )
         ) {
@@ -145,11 +147,14 @@ class MvpBrowserMenu(
         }
         listOfNotNull(
             menuToolbar,
+            BrowserMenuDivider(),
             findInPage,
             desktopMode,
-            reportSiteIssue,
+            reportSiteIssuePlaceholder,
+            BrowserMenuDivider(),
             addToHomescreen,
             openInApp,
+            BrowserMenuDivider(),
             settings
         )
     }
