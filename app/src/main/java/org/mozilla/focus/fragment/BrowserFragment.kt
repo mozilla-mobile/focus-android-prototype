@@ -88,6 +88,7 @@ import org.mozilla.focus.utils.SupportUtils
 import org.mozilla.focus.widget.AnimatedProgressBar
 import org.mozilla.focus.widget.FloatingEraseButton
 import org.mozilla.focus.widget.FloatingSessionsButton
+import org.mozilla.focus.widget.ResizableKeyboardCoordinatorLayout
 
 /**
  * Fragment for displaying the browser UI.
@@ -102,7 +103,8 @@ class BrowserFragment :
     private var statusBar: View? = null
     private var urlBar: View? = null
     private var popupTint: FrameLayout? = null
-
+    private lateinit var eraseButton: FloatingEraseButton
+    private lateinit var sessionsCounter: FloatingSessionsButton
     private var engineView: EngineView? = null
 
     private val findInPageIntegration = ViewBoundFeatureWrapper<FindInPageIntegration>()
@@ -173,6 +175,10 @@ class BrowserFragment :
         val blockView = view.findViewById<View>(R.id.block) as FrameLayout
         val securityView = view.findViewById<ImageView>(R.id.security_info)
         val toolbarView = view.findViewById<DisplayToolbar>(R.id.appbar)
+        eraseButton = view.findViewById(R.id.erase)
+        sessionsCounter = view.findViewById(R.id.tabs)
+
+        updateResizableContainerDynamicViews(view)
 
         findInPageIntegration.set(FindInPageIntegration(
             components.store,
@@ -343,24 +349,28 @@ class BrowserFragment :
         if (customTabConfig != null) {
             initialiseCustomTabUi(view, customTabConfig)
         } else {
-            initialiseNormalBrowserUi(view)
+            initialiseNormalBrowserUi()
         }
     }
 
-    private fun initialiseNormalBrowserUi(view: View) {
-        val eraseButton = view.findViewById<FloatingEraseButton>(R.id.erase)
+    private fun updateResizableContainerDynamicViews(parentView: View) {
+        val mainResizableContainer =
+            parentView.findViewById<ResizableKeyboardCoordinatorLayout>(R.id.main_content)
+        mainResizableContainer.updateDynamicViews(arrayListOf(eraseButton, sessionsCounter))
+    }
+
+    private fun initialiseNormalBrowserUi() {
         eraseButton.setOnClickListener(this)
 
         urlView!!.setOnClickListener(this)
 
-        val tabsButton = view.findViewById<FloatingSessionsButton>(R.id.tabs)
-        tabsButton.setOnClickListener(this)
+        sessionsCounter.setOnClickListener(this)
 
         tabCountBinding.set(
             TabCountBinding(
                 requireComponents.store,
                 eraseButton,
-                tabsButton
+                sessionsCounter
             ),
             owner = this,
             view = eraseButton
@@ -374,12 +384,10 @@ class BrowserFragment :
         // - View.GONE: doesn't work because the layout-behaviour makes the FAB visible again when scrolling.
         // - Adding at runtime: works, but then we need to use a separate layout file (and you need
         //   to set some attributes programatically, same as ViewStub).
-        val erase = view.findViewById<FloatingEraseButton>(R.id.erase)
-        val eraseContainer = erase.parent as ViewGroup
-        eraseContainer.removeView(erase)
+        val eraseContainer = eraseButton.parent as ViewGroup
+        eraseContainer.removeView(eraseButton)
 
-        val sessions = view.findViewById<FloatingSessionsButton>(R.id.tabs)
-        eraseContainer.removeView(sessions)
+        eraseContainer.removeView(sessionsCounter)
 
         val textColor: Int
 
