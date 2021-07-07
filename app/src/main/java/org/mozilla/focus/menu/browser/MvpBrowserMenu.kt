@@ -5,8 +5,8 @@ package org.mozilla.focus.menu.browser
 
 import android.content.Context
 import androidx.core.content.ContextCompat
-import mozilla.components.browser.menu.BrowserMenuBuilder
 import mozilla.components.browser.menu.BrowserMenuHighlight
+import mozilla.components.browser.menu.WebExtensionBrowserMenuBuilder
 import mozilla.components.browser.menu.item.BrowserMenuDivider
 import mozilla.components.browser.menu.item.BrowserMenuHighlightableItem
 import mozilla.components.browser.menu.item.BrowserMenuImageSwitch
@@ -33,7 +33,11 @@ class MvpBrowserMenu(
     private val selectedSession: TabSessionState?
         get() = store.state.selectedTab
 
-    override val menuBuilder by lazy { BrowserMenuBuilder(mvpMenuItems) }
+    override val menuBuilder by lazy {
+        WebExtensionBrowserMenuBuilder(
+            items = mvpMenuItems, store = store, showAddonsInMenu = false
+        )
+    }
 
     override val menuToolbar by lazy {
         val back = BrowserMenuItemToolbar.TwoStateButton(
@@ -112,7 +116,8 @@ class MvpBrowserMenu(
         }
 
         val reportSiteIssuePlaceholder = WebExtensionPlaceholderMenuItem(
-            id = WebCompatReporterFeature.WEBCOMPAT_REPORTER_EXTENSION_ID
+            id = WebCompatReporterFeature.WEBCOMPAT_REPORTER_EXTENSION_ID,
+            iconTintColorResource = ThemeManager.resolveAttribute(R.attr.primaryText, context)
         )
 
         val addToHomescreen = BrowserMenuImageText(
