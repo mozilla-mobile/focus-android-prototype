@@ -274,7 +274,6 @@ class BrowserFragment :
             }
 
             browserToolbar.display.menuBuilder = browserMenu.menuBuilder
-
         } else {
             browserToolbar.display.menuController = BrowserMenuControllerAdapter(this)
         }

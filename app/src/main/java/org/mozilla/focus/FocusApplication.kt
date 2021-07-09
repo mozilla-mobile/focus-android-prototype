@@ -103,7 +103,7 @@ open class FocusApplication : LocaleAwareApplication(), CoroutineScope {
                         engineSession = engineSession,
                         private = true
                     )
-                },
+                }
             )
         } catch (e: UnsupportedOperationException) {
             Logger.error("Failed to initialize web extension support", e)

@@ -24,7 +24,7 @@ class MvpCustomTabMenu(
     private val context: Context,
     private val store: BrowserStore,
     private val currentTabId: String,
-    private val onItemTapped: (ToolbarMenu.Item) -> Unit = {},
+    private val onItemTapped: (ToolbarMenu.Item) -> Unit = {}
 ) : ToolbarMenu {
 
     private val selectedSession = store.state.findCustomTab(currentTabId)
@@ -89,7 +89,7 @@ class MvpCustomTabMenu(
     val mvpMenuItems by lazy {
         val findInPage = BrowserMenuImageText(
             label = context.getString(R.string.find_in_page),
-            imageResource = R.drawable.ic_search,
+            imageResource = R.drawable.ic_search
         ) {
             onItemTapped.invoke(ToolbarMenu.Item.FindInPage)
         }
@@ -111,7 +111,7 @@ class MvpCustomTabMenu(
 
         val addToHomescreen = BrowserMenuImageText(
             label = context.getString(R.string.menu_add_to_home_screen),
-            imageResource = R.drawable.ic_add_to_home_screen,
+            imageResource = R.drawable.ic_add_to_home_screen
         ) {
             onItemTapped.invoke(ToolbarMenu.Item.AddToHomeScreen)
         }

@@ -13,6 +13,7 @@ import org.mozilla.focus.state.AppStore
 import org.mozilla.focus.state.Screen
 import org.mozilla.focus.telemetry.TelemetryWrapper
 
+@Suppress("TooManyFunctions", "LongParameterList")
 class MvpBrowserMenuController(
     private val sessionUseCases: SessionUseCases,
     private val appStore: AppStore,
@@ -22,7 +23,7 @@ class MvpBrowserMenuController(
     private val shareCallback: () -> Unit,
     private val requestDesktopCallback: (isChecked: Boolean) -> Unit,
     private val addToHomeScreenCallback: (url: String, title: String) -> Unit,
-    private val openInCallback: () -> Unit,
+    private val openInCallback: () -> Unit
 ) {
 
     private val currentTab = store.state.findTabOrCustomTab(currentTabId)
