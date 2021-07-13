@@ -16,6 +16,7 @@ import org.mozilla.focus.R
 import org.mozilla.focus.fragment.BrowserFragment
 import org.mozilla.focus.utils.Browsers
 import org.mozilla.focus.utils.HardwareUtils
+import org.mozilla.focus.utils.MvpFeatureManager
 
 import java.lang.ref.WeakReference
 
@@ -133,10 +134,14 @@ class BrowserMenuAdapter(
         if (customTabConfig == null) {
             // There’s no need for Settings in a custom tab.
             // The user can go to the browser app itself in order to do this.
+            val settingsIconId = if (MvpFeatureManager.isEnabled)
+                R.drawable.ic_mvp_settings
+            else
+                R.drawable.ic_settings
             items.add(
                 MenuItem.Default(
                     R.id.settings, resources.getString(R.string.menu_settings),
-                    R.drawable.ic_settings
+                    settingsIconId
                 )
             )
         }

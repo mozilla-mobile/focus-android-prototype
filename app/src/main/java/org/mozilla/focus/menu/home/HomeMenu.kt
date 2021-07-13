@@ -15,6 +15,7 @@ import android.view.ViewGroup
 import android.widget.PopupWindow
 import kotlinx.android.synthetic.main.menu.view.*
 import org.mozilla.focus.R
+import org.mozilla.focus.utils.MvpFeatureManager
 import org.mozilla.focus.utils.ViewUtils
 
 /**
@@ -31,7 +32,10 @@ class HomeMenu(
 
         with(contentView.list) {
             layoutManager = LinearLayoutManager(context, RecyclerView.VERTICAL, false)
-            adapter = HomeMenuAdapter(context, this@HomeMenu)
+            adapter = if (MvpFeatureManager.isEnabled)
+                MvpHomeMenuAdapter(context, this@HomeMenu)
+            else
+                HomeMenuAdapter(context, this@HomeMenu)
         }
 
         setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
