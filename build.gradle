@@ -10,6 +10,7 @@ buildscript {
     ext.mozilla_components_version_telemetry = '57.0.9'
 
     repositories {
+        mavenLocal()
         google()
         mavenCentral()
         maven {
@@ -28,6 +29,15 @@ buildscript {
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
+    }
+
+    configurations.all {
+        resolutionStrategy.eachDependency { details ->
+            if (details.requested.group == 'org.mozilla.components'
+                    && details.requested.name == 'tooling-glean-gradle' ) {
+                details.useVersion "91.0.20210613190144"
+            }
+        }
     }
 }
 
@@ -57,6 +67,7 @@ detekt {
 
 allprojects {
     repositories {
+        mavenLocal()
         google()
         mavenCentral()
         maven {
